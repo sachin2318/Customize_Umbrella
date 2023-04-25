@@ -1,4 +1,4 @@
-﻿# Customize_Umbrella
+﻿# Customize Umbrella
 
 This is a StarApps Studio Custom Umbrella, created by and maintained by [sachin](https://github.com/sachin2318)
 
