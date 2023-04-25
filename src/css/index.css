@@ -29,7 +29,6 @@ body {
 
 
 #leftBox {
-  /* border: 3px solid Yellow; */
   flex: 1.5;
 }
 
@@ -42,7 +41,6 @@ body {
 }
 
 #logo_umbrella {
-  /* border: 3px solid red; */
   position: absolute;
   bottom: 20px;
   display: none;
@@ -50,7 +48,6 @@ body {
   justify-content: center;
 }
 #logo-bottom {
-  /* border: 3px solid red; */
   width: 100px;
   height: 50px;
 }
@@ -109,7 +106,7 @@ body {
 #headingtwo {
   font-size: 17px;
   font-weight: 550;
-  line-height: 12px;
+  line-height: 11px;
   margin-bottom: 2px;
 
 }
