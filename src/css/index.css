@@ -112,7 +112,7 @@ body {
 
 #imageUpload {
   display: flex;
-  background-color: lightblue;
+  background-color: rgb(0,163,224);
   padding: 0px 20px 0px 0px;
   cursor: pointer;
   align-items: center;
