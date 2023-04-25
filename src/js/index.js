@@ -1,16 +1,16 @@
 const colors = [
-  {
-    color: "black",
-    isClickable: false,
-  },
-  {
-    color: "grey",
-    isClickable: false,
-  },
-  {
-    color: "navy",
-    isClickable: false,
-  },
+  // {
+  //   color: "black",
+  //   isClickable: false,
+  // },
+  // {
+  //   color: "grey",
+  //   isClickable: false,
+  // },
+  // {
+  //   color: "navy",
+  //   isClickable: false,
+  // },
   {
     color: "Pink",
     isClickable: true,
@@ -23,14 +23,14 @@ const colors = [
     color: "Yellow",
     isClickable: true,
   },
-  {
-    color: "orange",
-    isClickable: false,
-  },
-  {
-    color: "red",
-    isClickable: false,
-  },
+  // {
+  //   color: "orange",
+  //   isClickable: false,
+  // },
+  // {
+  //   color: "red",
+  //   isClickable: false,
+  // },
 ];
 
 const getColor = (color) => {
