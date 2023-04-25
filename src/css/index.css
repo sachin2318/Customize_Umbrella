@@ -11,25 +11,21 @@ body {
 }
 .mainContainer {
   margin: auto;
-  margin-top: 20px;
   align-items: center;
-  margin-bottom: 20px;
   display: flex;
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
+  justify-content: center;
+  height: 450px;
+  width: 100%;
 }
-
-#firstBox {
-  width: 350px;
-}
-
 
 #leftBox {
-  flex: 1.5;
+  width: 450px;
+  height: 100%;
 }
 
 #img_umbrella {
@@ -43,6 +39,7 @@ body {
 #logo_umbrella {
   position: absolute;
   bottom: 20px;
+
   display: none;
   align-items: center;
   justify-content: center;
@@ -79,13 +76,11 @@ body {
 /* right box  */
 
 #rightBox {
-  /* border: 3px solid Yellow; */
-  flex: 1;
-  /* padding: 0px 20px; */
+  width: 285px;
+  height: 100%;
 }
 
 #infoBox {
-  /* border: 3px solid Yellow; */
   display: flex;
   flex-direction: column;
 }
@@ -96,8 +91,9 @@ body {
 }
 
 #headingone {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bold;
+  margin: 15px 0px;
 }
 
 #upload_word {
@@ -105,30 +101,24 @@ body {
 }
 #headingtwo {
   font-size: 17px;
-  font-weight: 550;
-  line-height: 11px;
-  margin-bottom: 2px;
-
+  font-weight: bold;
 }
 
 #headingthree {
   font-size: 14px;
-  font-weight: 450px;
-  margin: 0;
 }
 
 #headingfour {
-  font-size: 11px;
+  font-size: 12px;
+  opacity: 0.8;
 }
-
 
 #imageUpload {
   display: flex;
-  background-color: rgb(0,163,224);
-  padding: 0px 20px 0px 60px;
+  background-color: lightblue;
+  padding: 0px 20px 0px 0px;
   cursor: pointer;
   align-items: center;
-
 }
 #crossSvg {
   display: none;
@@ -136,7 +126,6 @@ body {
 
 #imageSvg {
   margin: 0px 25px;
-  /* border: 2px solid RED; */
 }
 
 /* responsiveness for 720pixels */
@@ -144,14 +133,27 @@ body {
 @media (min-width: 320px) and (max-width: 720px) {
   .mainContainer {
     display: block;
+    height: 100%;
+    margin-top: 100px;
+  }
+  #bigLoader {
+    padding: 0px;
+  }
+  #infoBox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
   }
   #rightBox {
     width: 100%;
   }
+  #thirdBox {
+    text-align: center;
+  }
   #leftBox {
     width: 100%;
-  }
-  #firstBox {
-    width: 100%;
+    height: auto;
   }
 }
